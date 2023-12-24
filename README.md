@@ -1,6 +1,6 @@
 # _"text/typescript"_
 
-```html {2}
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
