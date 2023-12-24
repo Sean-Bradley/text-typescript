@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>"text/typescript" example</title>
+        <meta name="description" content="Transpiling and executing TypeScript in the browser" />
+        <style>
+            body {
+                overflow: hidden;
+                margin: 0px;
+                font-size: 15vw;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/typescript">
+            function foo(bar: string) {
+                return "Hello " + bar;
+            }
+
+            let baz = "World!";
+
+            document.write(foo(baz));
+        </script>
+        <script src="https://unpkg.com/typescript@5.3.3/lib/typescript.js"></script>
+        <script src="./text/typescript/index.js"></script>
+    </body>
+</html>

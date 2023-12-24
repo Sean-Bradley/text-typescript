@@ -1,8 +1,11 @@
 "use strict";
-const script = document.getElementsByTagName('script');
-for (let i = 0; i < script.length; i++) {
-    if ('text/typescript' === script[i].type) {
-        const js = window.ts.transpile(script[i].innerHTML);
-        eval(js);
+const scripts = document.getElementsByTagName('script');
+for (let i = 0; i < scripts.length; i++) {
+    if ('text/typescript' === scripts[i].type) {
+        const s = window.ts.transpile(scripts[i].innerHTML);
+        const e = document.createElement('script');
+        e.type = 'text/javascript';
+        e.innerHTML = s;
+        document.body.appendChild(e);
     }
 }
