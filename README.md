@@ -1,7 +1,10 @@
-# text/typescript
+# *"text/typescript"*
 
 ```html
-<script type="text/typescript">// some typescript code</script>
+<script type="text/typescript">
+  // some typescript code
+</script>
 ```
 
-Use TypeScript in HTML Script tags
+Use TypeScript directly in HTML Script tags.
+
