@@ -1,4 +1,4 @@
-# _"text/typescript"_
+# text/typescript
 
 ```html
 <script type="text/typescript">
