@@ -12,7 +12,7 @@ Then load the dependencies,
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
-<script defer src="./text/typescript/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/text-typescript@latest"></script>
 ```
 
 Example,
@@ -42,7 +42,7 @@ Example,
             document.getElementById("root").innerHTML = foo(baz);
         </script>
         <script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
-        <script defer src="./text/typescript/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/text-typescript@latest"></script>
     </head>
     <body>
         <div id="root"></div>
