@@ -1,17 +1,24 @@
 # text/typescript
 
+Use TypeScript directly in HTML Script tags.
+
 ```html
 <script type="text/typescript">
-  // Your TypeScript code here
+    // Your TypeScript code here
 </script>
 ```
 
-Use TypeScript directly in HTML Script tags.
+Then load the dependencies,
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
+<script defer src="./text/typescript/index.js"></script>
+```
 
 Example,
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -25,8 +32,6 @@ Example,
                 font-size: 15vw;
             }
         </style>
-    </head>
-    <body>
         <script type="text/typescript">
             function foo(bar: string) {
                 return "Hello " + bar;
@@ -34,10 +39,13 @@ Example,
 
             let baz = "World!";
 
-            document.write(foo(baz));
+            document.getElementById("root").innerHTML = foo(baz);
         </script>
         <script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
-        <script src="https://cdn.jsdelivr.net/npm/text-typescript@latest"></script>
+        <script defer src="./text/typescript/index.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
     </body>
 </html>
 ```

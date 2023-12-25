@@ -1,12 +1,13 @@
 {
   "name": "text-typescript",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Use TypeScript directly in HTML Script tags",
   "main": "./text/typescript/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ./src",
-    "dev": "tsc -p ./src -w"
+    "open": "start http://localhost:8080",
+    "dev": "concurrently \"tsc -p ./src -w\" \"http-server -a localhost\" \"npm run open\""
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/Sean-Bradley/text-typescript#readme",
   "dependencies": {
+    "concurrently": "^8.2.2",
+    "http-server": "^14.1.1",
     "nodemon": "^3.0.2",
     "typescript": "^5.3.3"
   }
