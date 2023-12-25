@@ -71,4 +71,4 @@ For anything marked as ❌, it is better to use TypeScript in a desktop IDE, e.g
 
 Compiling/transpiling TypeScript in the browser is just for fun. Don't treat it too seriously.
 
-\* : Caveat. Instead of using ES6 Imports/Exports. include all your code in the one `<script type="text/typescript">` tag.
+\* : Caveat. Instead of using ES6 Imports/Exports. include all your code in the one or more `<script type="text/typescript">` tags.
