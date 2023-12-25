@@ -36,7 +36,7 @@ Example,
 
             document.write(foo(baz));
         </script>
-        <script src="https://unpkg.com/typescript@latest/lib/typescript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
         <script src="https://cdn.jsdelivr.net/npm/text-typescript@latest"></script>
     </body>
 </html>
