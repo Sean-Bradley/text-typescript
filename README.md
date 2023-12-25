@@ -1,6 +1,6 @@
 # text/typescript
 
-Use TypeScript directly in HTML Script tags.
+You can use TypeScript directly in HTML Script tags.
 
 ```html
 <script type="text/typescript">
@@ -8,7 +8,7 @@ Use TypeScript directly in HTML Script tags.
 </script>
 ```
 
-Then load the dependencies,
+And to make it work, also load the dependencies.
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
@@ -65,7 +65,7 @@ _CTRL+click to open links in new tab/window_
 | [Abstract Classes](https://sbcode.net/typescript/abstract_classes/)       | [Working Example](https://editor.sbcode.net/6c352e04dd3a3173cb28485589edd2c5214aeb77)                                                                                                                                                      | ✅        |
 | [Access Modifiers](https://sbcode.net/typescript/access_modifiers/)       | [Public](https://editor.sbcode.net/99fdbf60c582cf972d19aae3f3f4f8e42dfe195b) [Private](https://editor.sbcode.net/536d3082fe52fca05b5a6907ea48d09cb23e2a46) [Protected](https://editor.sbcode.net/d8a73b252320e459b00360347e53fbeeb0e09e72) | ✅✅❌    |
 | [Static Members](https://sbcode.net/typescript/static_members/)           | [Working Example](https://editor.sbcode.net/6536773cb303a632aa1aeea81a0de136fe8549a6)                                                                                                                                                      | ✅        |
-| [ES6 Imports/Exports](https://sbcode.net/typescript/es6_imports_exports/) | [Working Example](https://editor.sbcode.net/25f1e3883df269c3f17c9927609a61d32b2b429a)()                                                                                                                                                    | ❌ / ✅\* |
+| [ES6 Imports/Exports](https://sbcode.net/typescript/es6_imports_exports/) | [Working Example](https://editor.sbcode.net/25f1e3883df269c3f17c9927609a61d32b2b429a)                                                                                                                                                      | ❌ / ✅\* |
 
 For anything marked as ❌, it is better to use TypeScript in a desktop IDE, e.g., VSCode, since you you get working intellisense, ability to import types, and type checking as you type.
 
