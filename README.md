@@ -71,4 +71,6 @@ For anything marked as ❌, it is better to use TypeScript in a desktop IDE, e.g
 
 Compiling/transpiling TypeScript in the browser is just for fun. Don't treat it too seriously.
 
-\* : Caveat. Instead of using ES6 Imports/Exports. include all your code in the one or more `<script type="text/typescript">` tags.
+\* : Caveat. Importing ES6 modules from external files is not supported in the editor. However, you can include all of your code in one `<script type="text/typescript">` tag but wrap the code from each specific module in its own `module` declaration.
+
+Example, [https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16](https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16)
