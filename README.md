@@ -67,7 +67,7 @@ _CTRL+click to open links in new tab/window_
 | [Static Members](https://sbcode.net/typescript/static_members/)           | [Working Example](https://editor.sbcode.net/6536773cb303a632aa1aeea81a0de136fe8549a6)                                                                                                                                                      | ✅        |
 | [ES6 Imports/Exports](https://sbcode.net/typescript/es6_imports_exports/) | [Working Example](https://editor.sbcode.net/25f1e3883df269c3f17c9927609a61d32b2b429a)                                                                                                                                                      | ❌ / ✅\* |
 
-For anything marked as ❌, it is better to use TypeScript in a desktop IDE, e.g., VSCode, since you you get working intellisense, ability to import types, and type checking as you type.
+For anything marked as ❌, it is better to use TypeScript in a desktop IDE, e.g., VSCode, since you get working intellisense, ability to import types, and type checking as you type.
 
 Compiling/transpiling TypeScript in the browser is just for fun. Don't treat it too seriously.
 

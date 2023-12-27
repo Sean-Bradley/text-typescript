@@ -1,0 +1,1 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtext/typescript\\E$"}
