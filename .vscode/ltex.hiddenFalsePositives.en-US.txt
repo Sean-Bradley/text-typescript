@@ -1,1 +1,2 @@
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qtext/typescript\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QAny preceding \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q tags that have been id'd will be setup as modules in memory via an \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q containing multiple data URLs.\\E$"}

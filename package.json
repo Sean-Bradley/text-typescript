@@ -1,6 +1,6 @@
 {
   "name": "text-typescript",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Use TypeScript directly in HTML Script tags",
   "main": "./text/typescript/index.js",
   "scripts": {
