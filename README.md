@@ -67,6 +67,10 @@ _CTRL+click to open links in new tab/window_
 | [Static Members](https://sbcode.net/typescript/static_members/)           | [Working Example](https://editor.sbcode.net/6536773cb303a632aa1aeea81a0de136fe8549a6)                                                                                                                                                      | ✅     |
 | [ES6 Imports/Exports](https://sbcode.net/typescript/es6_imports_exports/) | [Working Example](https://editor.sbcode.net/25f1e3883df269c3f17c9927609a61d32b2b429a)                                                                                                                                                      | ✅\*   |
 
+For anything marked as ❌, it is better to use TypeScript in a desktop IDE, e.g., VSCode, since you get working intellisense, ability to import types, and type checking as you type.
+
+Compiling/transpiling TypeScript in the browser is just for fun. Don't treat it too seriously.
+
 \* : Caveat. ES6 Imports and Exports work if you follow some rules.
 
 -   Create multiple `text/typscript` tags, with the `id` of the module name.
@@ -76,6 +80,25 @@ _CTRL+click to open links in new tab/window_
 
 ES6 Import/Export Working Example : [https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16](https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16)
 
-For anything marked as ❌, it is better to use TypeScript in a desktop IDE, e.g., VSCode, since you get working intellisense, ability to import types, and type checking as you type.
+Using multiple `text/typscript` tags as modules,
 
-Compiling/transpiling TypeScript in the browser is just for fun. Don't treat it too seriously.
+```html
+<script type="text/typescript" id="someModule">
+    export default class SomeModule {
+        // ...
+    }
+</script>
+<script type="text/typescript" id="anotherModule">
+    export class ModuleA {
+        // ...
+    }
+    export class ModuleB {
+        // ...
+    }
+</script>
+<script type="text/typescript">
+    import SomeModule from 'someModule'
+    import { ModuleA, ModuleB } from 'anotherModule'
+    // ...
+</script>
+```
