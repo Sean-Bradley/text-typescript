@@ -11,8 +11,8 @@ You can use TypeScript directly in HTML Script tags.
 And to make it work, also load the dependencies.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/text-typescript@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/typescript@5.3.3"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/text-typescript@1.3.0"></script>
 ```
 
 Example,
@@ -41,8 +41,8 @@ Example,
 
             document.getElementById("root").innerHTML = foo(baz);
         </script>
-        <script src="https://cdn.jsdelivr.net/npm/typescript@latest"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/text-typescript@latest"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typescript@5.3.3"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/text-typescript@1.3.0"></script>
     </head>
     <body>
         <div id="root"></div>
@@ -69,10 +69,10 @@ _CTRL+click to open links in new tab/window_
 
 \* : Caveat. ES6 Imports and Exports work if you follow some rules.
 
-1. Create multiple `text/typscript` tags, with the `id` of the module name.
-2. Order the `text/typscript` tags in compilation order.
-3. The final `text/typscript` tag will be the entry point. Don't name it with any `id`. Any preceding `text/typscript` tags that have been id'd will be setup as modules in memory via an `importmap` containing multiple data URLs.
-4. See the working example below.
+-   Create multiple `text/typscript` tags, with the `id` of the module name.
+-   Order the `text/typscript` tags in compilation order.
+-   The final `text/typscript` tag will be the entry point. Don't name it with any `id`. Any preceding `text/typscript` tags that have been id'd will be setup as modules in memory via an `importmap` containing multiple data URLs.
+-   See the working example below.
 
 ES6 Import/Export Working Example : [https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16](https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16)
 
