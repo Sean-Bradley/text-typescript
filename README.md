@@ -78,7 +78,9 @@ Compiling/transpiling TypeScript in the browser is just for fun. Don't treat it 
 -   The final `text/typscript` tag will be the entry point. Don't name it with any `id`. Any preceding `text/typscript` tags that have been id'd will be setup as modules in memory via an `importmap` containing multiple data URLs.
 -   See the working example below.
 
-ES6 Import/Export Working Example : [https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16](https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16)
+## ES6 Import/Export Working Example
+
+[https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16](https://editor.sbcode.net/433fc06b2282985f8bca604aa4dd58688510ca16)
 
 Using multiple `text/typscript` tags as modules,
 
