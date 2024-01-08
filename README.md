@@ -104,3 +104,13 @@ Using multiple `text/typscript` tags as modules,
     // ...
 </script>
 ```
+
+## Some More Examples
+
+Singleton Pattern : https://sbcode.net/typescript/singleton/#sbcode-editor_1
+Flyweight Pattern : https://sbcode.net/typescript/flyweight/#sbcode-editor_1
+Composite Pattern : https://sbcode.net/typescript/composite/#sbcode-editor_1
+
+
+
+
